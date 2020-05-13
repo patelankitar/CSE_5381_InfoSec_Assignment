@@ -278,7 +278,7 @@ div {
 	<table style="font-style: italic; color: gray">
 		<tr>
 			<td style="padding-left: 320px;">Source code can be found at -
-				<a href ="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment"> Source </a>
+				<a href ="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment" target = "_blank"> Source </a>
 			<td>
 		</tr>
 

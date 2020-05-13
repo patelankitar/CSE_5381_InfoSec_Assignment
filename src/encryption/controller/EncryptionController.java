@@ -126,7 +126,7 @@ public class EncryptionController extends HttpServlet {
 			} 
 			else
 			{
-				encryptionModel.setErrorMessage("Please provide cipher text to generate origional text");
+				encryptionModel.setErrorMessage("Please provide cipher text to generate original text");
 			}
 
 		}
