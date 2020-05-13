@@ -199,13 +199,18 @@ div {
 					values.</td>
 			<tr>
 			<tr>
+				<td
+					style="width: 10%; font-style: italic; text-decoration: underline;"></td>
+				<td style="width: 90%;font-size:10px">Please click the Clear button twice in case it does not clear values in the first attempt</td>
+			<tr>
+			<tr>
 				<td colspan=2 height="10px"></td>
 			</tr>
 			<tr>
 				<td colspan=2 height="10px"></td>
 			</tr>
 		</table>
-		
+
 		<span style="color: Red"> <label for="errorMessageLabel"
 			id="errorMessageLabel">${hashModel.errorMessage}</label>
 		</span>
@@ -258,7 +263,9 @@ div {
 				</td>
 			</tr>
 		</table>
-
+		<br />
+		<br />
+		<br />
 		<table style="font-size: 16px;">
 			<tr>
 				<td
@@ -269,12 +276,16 @@ div {
 
 			</tr>
 		</table>
-
+		<br />
+		<br />
+		<br />
 		<table style="font-style: italic; color: gray">
 			<tr>
-				<td style="padding-left: 420px;">Source code can be found at -
-				<a href ="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment"> Source </a>
-			<td>
+				<td style="padding-left: 320px;">
+					Source code can be found at - <a
+						href="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment">
+						Source </a>
+				<td>
 			</tr>
 
 		</table>

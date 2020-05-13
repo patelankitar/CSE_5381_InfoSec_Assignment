@@ -12,15 +12,12 @@
 <title>Encyption-Decryption functionality</title>
 
 <style>
-/* {
-padding : 0;
-margin : 0;
-} */
-/* html {
+
+ html {
 	padding: 15px 15px 0;
 	font-family: sans-serif;
 	font-size: 14px;
-} */
+} 
 
 p, h3 {
 	margin-bottom: 15px;
@@ -280,7 +277,7 @@ div {
 			</tr>
 		</table>
 	</form>
-
+<br/><br/><br/>
 	<table style="font-size: 16px;">
 		<tr>
 			<td
@@ -291,10 +288,10 @@ div {
 
 		</tr>
 	</table>
-
+<br/><br/><br/>
 	<table style="font-style: italic; color: gray">
 		<tr>
-			<td style="padding-left: 420px;">Source code can be found at -
+			<td style="padding-left: 320px;">Source code can be found at -
 				<a href ="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment"> Source </a>
 			<td>
 		</tr>

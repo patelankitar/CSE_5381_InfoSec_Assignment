@@ -65,7 +65,15 @@ public class HashController extends HttpServlet {
 		} else if (request.getParameter("clearButton") != null) {
 			hashmodel.setHashedValue("");
 			hashmodel.setStringToHash("");
+			
 			hashedValuesTableList = new ArrayList<HashedValuesTable>();
+			hashmodel = new HashModel();
+			
+			HashedValuesTable hashVal = new HashedValuesTable();
+			hashedValuesTableList.add(hashVal);
+			
+			session.setAttribute("hashmodel", hashmodel);
+			session.setAttribute("hashedValuesTableList", hashedValuesTableList);
 		} 
 		
 		else {

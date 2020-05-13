@@ -271,7 +271,7 @@ div {
 			</tr>
 		</table>
 	</div>
-
+<br/><br/><br/>
 	<table style="font-size: 16px;">
 		<tr>
 			<td
@@ -281,6 +281,7 @@ div {
 
 		</tr>
 	</table>
+	<br/><br/><br/>
 
 	<table style="font-style: italic; color: gray">
 		<tr>

@@ -13,11 +13,11 @@
 <title>Watermark functionality</title>
 
 <style>
-/* html {
+ html {
 	padding: 15px 15px 0;
 	font-family: sans-serif;
 	font-size: 14px;
-} */
+} 
 p, h3 {
 	margin-bottom: 15px;
 }
@@ -207,6 +207,7 @@ div {
 						value="Add Watermark to Image" />
 				</td>
 			</tr>
+			
 			<tr>
 				<td colspan=2 height="10px"></td>
 			</tr>
@@ -229,7 +230,11 @@ div {
 										class="button" value="Clear values">
 				</td>
 			</tr>
-
+<tr>
+				<td
+					style="width: 10%; font-style: italic; text-decoration: underline;"></td>
+				<td style="width: 90%;font-size:10px">Please click the Clear button twice in case it does not clear values in the first attempt</td>
+			<tr>
 		</table>
 		<table>
 			<tr>
@@ -256,7 +261,7 @@ div {
 
 		</table>
 	</form>
-
+<br/><br/><br/>
 
 
 	<table style="font-size: 16px;">
@@ -269,10 +274,10 @@ div {
 
 		</tr>
 	</table>
-
+<br/><br/><br/>
 	<table style="font-style: italic; color: gray">
 		<tr>
-			<td style="padding-left: 420px;">Source code can be found at -
+			<td style="padding-left: 320px;">Source code can be found at -
 				<a href ="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment"> Source </a>
 			<td>
 		</tr>

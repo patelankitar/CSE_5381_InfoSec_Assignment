@@ -48,12 +48,15 @@ public class EncryptionController extends HttpServlet {
 		// Encoding
 		if (request.getParameter("encryptButton") != null) 
 		{
-
-			if (request.getParameter("inputPlainTextBox") != null) 
+			
+			if (request.getParameter("inputPlainTextBox") != null && request.getParameter("inputPlainTextBox").toString() != "" &&
+					!request.getParameter("inputPlainTextBox").toString().isEmpty()) 
 			{
-
-				if (request.getParameter("keyTextBox") != null) 
+				if (request.getParameter("keyTextBox") != null && request.getParameter("keyTextBox").toString() != null && 
+						request.getParameter("keyTextBox").toString() != "" && !request.getParameter("keyTextBox").toString().isEmpty()) 
 				{
+					System.out.println("on blank = " + request.getParameter("keyTextBox").toString());
+					
 					encryptionModel.setInputPlainText(request.getParameter("inputPlainTextBox").toString());
 					encryptionModel.setKey(request.getParameter("keyTextBox").toString());
 
@@ -87,10 +90,12 @@ public class EncryptionController extends HttpServlet {
 		// Decoding
 		else if (request.getParameter("decryptButton") != null)
 		{
-			if (request.getParameter("inputCipherTextBox") != null) 
+			if (request.getParameter("inputCipherTextBox") != null && request.getParameter("inputCipherTextBox").toString() != ""
+					&& !request.getParameter("inputCipherTextBox").toString().isEmpty()) 
 			{
 
-				if (request.getParameter("keyTextBox") != null) 
+				if (request.getParameter("keyTextBox") != null && request.getParameter("keyTextBox").toString() != ""
+						&& !request.getParameter("keyTextBox").toString().isEmpty()) 
 				{
 					encryptionModel.setInputCipherText(request.getParameter("inputCipherTextBox").toString());
 					encryptionModel.setKey(request.getParameter("keyTextBox").toString());
@@ -135,6 +140,9 @@ public class EncryptionController extends HttpServlet {
 			encryptionModel.setInputCipherText("");
 			encryptionModel.setInputPlainText("");
 			encryptionModel.setKey("");
+			
+			encryptionModel = new EncryptionModel();
+			session.setAttribute("encryptionModel", encryptionModel);
 			
 		}
 

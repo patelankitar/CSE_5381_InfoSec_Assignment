@@ -147,7 +147,10 @@ public class WaterMarkController extends HttpServlet {
 				waterMarkModel.setTimeTaken("");
 				waterMarkModel.setWaterMarkedImgPath("");
 				waterMarkModel.setImageUploadMessage("");
-
+				
+				waterMarkModel = new WaterMarkModel();
+				session.setAttribute("waterMarkModel", waterMarkModel);
+				
 			}
 
 			getServletContext().getRequestDispatcher("/Watermark.jsp").forward(request, response);
