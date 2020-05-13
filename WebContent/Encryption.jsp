@@ -159,7 +159,7 @@ div {
 				<td
 					style="width: 10%; font-style: italic; text-decoration: underline;">Step
 					1:</td>
-				<td style="width: 90%">  Input 16 character secret key to encrypt text
+				<td style="width: 90%">  Input secret key to encrypt text
 					text box</td>
 			<tr>
 			<tr>
@@ -232,7 +232,7 @@ div {
 		
 		<table style="width: 100%">
 			<tr>
-				<td style="width: 600px">Input 16 char or digit Key here :</td>
+				<td style="width: 600px">Input Key here :</td>
 				<td colspan=3 style="width: 500px">
 					<textarea id="keyTextBox" name="keyTextBox" rows=2 cols=50>${encryptionModel.key}</textarea>
 				</td>
