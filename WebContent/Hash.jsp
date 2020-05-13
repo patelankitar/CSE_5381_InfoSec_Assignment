@@ -136,8 +136,8 @@ div {
 
 	<table style="font-style: italic; color: gray">
 		<tr>
-			<td style="padding-left: 450px;">CSE 5381 : Information Security
-				2 - Class project
+			<td style="padding-left: 450px;">CSE 5381: Information Security
+				2 - Spring 2020 - Class project
 			<td>
 		</tr>
 		<tr>
@@ -272,9 +272,9 @@ div {
 
 		<table style="font-style: italic; color: gray">
 			<tr>
-				<td style="padding-left: 220px;">Source code can be found at -
-					github.com
-				<td>
+				<td style="padding-left: 420px;">Source code can be found at -
+				<a href ="https://github.com/patelankitar/CSE_5381_InfoSec_Assignment"> Source </a>
+			<td>
 			</tr>
 
 		</table>
